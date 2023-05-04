@@ -1,5 +1,5 @@
 /* Common Variables Feel free to change! */
-/* Fonts */
+/* Fonts "Palatino Linotype", "Book Antiqua", Palatino, serif */
 /* 20px / 16px = 1.25em; support text resizing in all browsers */
 /* Color Make sure to leave color-scheme in `_config.yml` file empty for granular control */
 /* Ed: the minimal edition theme. ___________________ \_   _____/\______ \ |    __)_  |    |  \ |        \ |    `   \ /_______  //_______  / \/         \/ Designed, built, and released under an MIT license by @elotroalex and brill friends. See credits for more info. Based on the Poole and Lanyon theme by @mdo. Learn more at https://github.com/minicomp/ed. */
@@ -9,7 +9,7 @@
 
 html, body { margin: 0; padding: 0; overflow-x: hidden; }
 
-html { font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; font-size: 1em; /* 16px; specify in ems to support text resizing in all browsers */ line-height: 1.5; }
+html { font-family: source-sans-pro, sans-serif; font-style: normal; font-weight: 400; font-size: 1em; /* 16px; specify in ems to support text resizing in all browsers */ }
 
 @media (min-width: 38em) { html { font-size: 1.25em; } }
 
@@ -26,13 +26,13 @@ body { color: #454545; background-color: #fff; -webkit-text-size-adjust: 100%; -
 @media (min-width: 56em) { .container { max-width: 38rem; } }
 
 /* Links */
-a, .text-title a { color: #841212; text-decoration: none; }
+a, .text-title a { color: #006699; text-decoration: none; }
 
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover, a:focus { text-decoration: underline; }
 
 /* Headings */
-h1, h2, h3, h4, h5, h6 { font-family: sans-serif; margin-bottom: .5rem; font-weight: normal; color: #404040; letter-spacing: -.025rem; line-height: 1.25; text-rendering: optimizeLegibility; }
+h1, h2, h3, h4, h5, h6 { font-family: source-sans-pro, sans-serif; font-style: normal; font-weight: 900; margin-bottom: .5rem; color: #003366; letter-spacing: -.025rem; line-height: 1.25; text-rendering: optimizeLegibility; }
 
 h1, h1.text-title { font-size: 1.4rem; }
 
@@ -54,7 +54,7 @@ ul, ol { margin-top: 0; margin-bottom: 1rem; }
 hr { position: relative; margin: 1.5rem 0; border: 0; border-top: 1px solid #eee; border-bottom: 1px solid #fff; }
 
 /* Search highlighting */
-mark { color: white; background-color: #841212; }
+mark { color: white; background-color: #006699; }
 
 /* Quotes */
 blockquote { padding: 0rem 1.5rem 0rem 2rem; margin: 0 0 20px 0; color: #454545; border-left: none; font-style: italic; }
@@ -76,9 +76,9 @@ tbody tr:nth-child(odd) td, tbody tr:nth-child(odd) th { background-color: #f9f9
 /* Masthead Super small header above the content for site name and short description. */
 .masthead { border-bottom: 1px solid #eee; margin-bottom: 3rem; padding-top: 26px; padding-bottom: 1rem; text-align: center; }
 
-.masthead-title { color: #505050; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; font-size: 1.8rem; line-height: .777em; margin-top: 2em; margin-bottom: 0; margin-right: 0; margin-left: 0; text-align: center; }
+.masthead-title { color: #505050; font-family: source-sans-pro, sans-serif; font-style: normal; font-weight: 600; font-size: 1.8rem; line-height: .777em; margin-top: 2em; margin-bottom: 0; margin-right: 0; margin-left: 0; text-align: center; }
 
-.masthead-title small { color: #454545; display: none; /* This is an accessibility no-no */ font-family: sans-serif; font-size: .88rem; font-weight: normal; letter-spacing: .05rem; }
+.masthead-title small { color: #454545; display: none; /* This is an accessibility no-no */ font-family: source-sans-pro, sans-serif; font-style: normal; font-weight: 900; font-size: .88rem; letter-spacing: .05rem; }
 
 @media (min-width: 320px) { .masthead-title { margin-top: 2px; margin-right: 15%; margin-left: 15%; } }
 
@@ -91,7 +91,7 @@ tbody tr:nth-child(odd) td, tbody tr:nth-child(odd) th { background-color: #f9f9
 @media (min-width: 30em) { .sidebar { font-size: .75rem; /* 14px */ } }
 
 /* Sidebar content */
-.sidebar { background-color: #841212; }
+.sidebar { background-color: #006699; }
 
 .sidebar a { font-weight: normal; color: #fff; }
 
@@ -452,7 +452,7 @@ li.prose-indent { text-indent: 2rem; }
 /* Code */
 code, pre { font-family: Menlo, Monaco, "Courier New", monospace; }
 
-code { padding: .25em .5em; font-size: 85%; color: #bf616a; background-color: #f9f9f9; border-radius: 3px; }
+code { padding: .25em .5em; font-size: 85%; color: #006699; background-color: rgba(153, 153, 153, 0.2); border-radius: 3px; }
 
 pre { display: block; margin-top: 0; margin-bottom: 1rem; padding: 1rem; font-size: .8rem; line-height: 1.4; white-space: pre; white-space: pre-wrap; word-break: break-all; word-wrap: break-word; background-color: #f9f9f9; }
 
