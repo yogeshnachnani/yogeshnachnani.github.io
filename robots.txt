@@ -2,4 +2,4 @@ User-agent: *
 
 Disallow: /norobots/
 
-Sitemap: https://yogeshnachnani.github.io/sitemap.xml
+Sitemap: https://yogis.blog/sitemap.xml
