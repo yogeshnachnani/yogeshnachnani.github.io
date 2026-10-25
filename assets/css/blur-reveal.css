@@ -1,0 +1,7 @@
+.blur-reveal { position: relative; display: block; }
+.blur-reveal img.blurred { filter: blur(20px); transition: filter 0.4s ease; }
+.blur-reveal .reveal-hint {
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  color: #fff; background: rgba(0,0,0,0.6); padding: 4px 12px; border-radius: 4px;
+  font-size: 0.9em; pointer-events: none; z-index: 10;
+}
